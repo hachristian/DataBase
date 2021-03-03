@@ -1,0 +1,613 @@
+Script started on 2021-02-02 18:35:32-0600
+]0;jcsibria@turing: ~/DataBase/Project1jcsibria@turing:~/DataBase/Project1$ g++ -Wall *.cpp -o mi[Kain.exe
+]0;jcsibria@turing: ~/DataBase/Project1jcsibria@turing:~/DataBase/Project1$ ./main.exe
+welcome! what would you like to do?
+
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+1
+please enter the database name (Must match .csv file) Parks
+DataBase Parks has been created.
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+2
+Please enter the Database name you want to open.
+jfja
+opening Parks...
+Could not open jfja.data
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+2
+Please enter the Database name you want to open.
+Parks
+opening Parks...
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+2877
+ID: 2877
+Region: IM
+State: AZ
+Code: CHIR
+Name: Chiricahua National Monument
+Type: National Monument
+Visitors: 3962885
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+5
+Please insert the record number to update.
+2877
+which of the following fields will you update?
+
+
+[1] Region
+[2] State
+[3] Code
+[4] Name
+[5] Type
+[6] Visitors
+4
+type the change now: WO  NEW STATE BA  AP  PARK THAT EXISTS
+You will be updating the following record:
+ID: 2877
+Region: IM
+State: AZ
+Code: CHIR
+Name: Chiricahua_National_Monument
+Type: National_Monument
+Visitors: 3962885
+Name has been changed to NEW_STATE_PARK_THAT_EXISTS
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+5
+Please insert the record number to update.
+2877
+which of the following fields will you update?
+
+
+[1] Region
+[2] State
+[3] Code
+[4] Name
+[5] Type
+[6] Visitors
+2
+type the change now: arkan     ARKANSAS
+You will be updating the following record:
+ID: 2877
+Region: IM
+State: AZ
+Code: CHIR
+Name: NEW_STATE_PARK_THAT_EXISTS
+Type: National_Monument
+Visitors: 3962885
+State has been changed to AR
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+6
+Creating report... 
+
+ID: 2877
+Region: IM
+State: AR
+Code: CHIR
+Name: NEW_STATE_PARK_THAT_EXISTS
+Type: National_Monument
+Visitors: 3962885
+ID: 6092
+Region: IM
+State: AZ
+Code: HUTR
+Name: Hubbell_Trading_Post_National_Historic_Site
+Type: National_Historic_Site
+Visitors: 6197119
+ID: 8538
+Region: IM
+State: AZ
+Code: NAVA
+Name: Navajo_National_Monument
+Type: National_Monument
+Visitors: 3399225
+ID: 9526
+Region: IM
+State: AZ
+Code: PISP
+Name: Pipe_Spring_National_Monument
+Type: National_Monument
+Visitors: 2456547
+ID: 10683
+Region: IM
+State: AZ
+Code: SAGU
+Name: Saguaro_National_Park
+Type: National_Park
+Visitors: 33169763
+ID: 15492
+Region: IM
+State: AZ
+Code: ORPI
+Name: Organ_Pipe_Cactus_National_Monument
+Type: National_Monument
+Visitors: 17138757
+ID: 23864
+Region: IM
+State: AZ
+Code: PEFO
+Name: Petrified_Forest_National_Park
+Type: National_Park
+Visitors: 54138794
+ID: 23865
+Region: IM
+State: UT
+Code: GLCA
+Name: Glen_Canyon_National_Recreation_Area
+Type: National_Recreation_Area
+Visitors: 104419450
+ID: 23866
+Region: IM
+State: AZ
+Code: GRCA
+Name: Grand_Canyon_National_Park
+Type: National_Park
+Visitors: 205486894
+ID: 23944
+Region: IM
+State: UT
+Code: RABR
+Name: Rainbow_Bridge_National_Monument
+Type: National_Monument
+Visitors: 7007990
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+7
+Please insert the record number to add.
+1
+Enter the Region: AR
+Enter the State: WA
+Enter the Code: 4567
+Enter the Name: WHO KNOWS THIS EXISTS     STS THOGH  UGH
+Enter the Type: PARK
+Enter the Visitors: 239239
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+1
+ID: 1
+Region: AR
+State: WA
+Code: 4567
+Name: WHO KNOWS THIS EXISTS THOUGH
+Type: PARK
+Visitors: 239239
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+8
+Please insert the record number to delete.
+2877
+deleting record 2877...
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+5
+Please insert the record number to update.
+2877
+which of the following fields will you update?
+
+
+[1] Region
+[2] State
+[3] Code
+[4] Name
+[5] Type
+[6] Visitors
+1
+type the change now: ar
+You will be updating the following record:
+Record  was not found.
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+7
+Please insert the record number to add.
+2
+Enter the Region: NO
+Enter the State: ONE
+Enter the Code: KNOW    3282849
+Enter the Name: NO ONE KNOWS THIS PARK
+Enter the Type: NATIONAL TREASURE
+Enter the Visitors: 667
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+6
+Creating report... 
+
+ID: 1
+Region: AR
+State: WA
+Code: 4567
+Name: WHO_KNOWS_THIS_EXISTS_THOUGH
+Type: PARK
+Visitors: 239239
+ID: 2
+Region: NO
+State: ON
+Code: 3282
+Name: NO_ONE_KNOWS_THIS_PARK
+Type: NATIONAL_TREASURE
+Visitors: 667
+ID: 6092
+Region: IM
+State: AZ
+Code: HUTR
+Name: Hubbell_Trading_Post_National_Historic_Site
+Type: National_Historic_Site
+Visitors: 6197119
+ID: 8538
+Region: IM
+State: AZ
+Code: NAVA
+Name: Navajo_National_Monument
+Type: National_Monument
+Visitors: 3399225
+ID: 9526
+Region: IM
+State: AZ
+Code: PISP
+Name: Pipe_Spring_National_Monument
+Type: National_Monument
+Visitors: 2456547
+ID: 10683
+Region: IM
+State: AZ
+Code: SAGU
+Name: Saguaro_National_Park
+Type: National_Park
+Visitors: 33169763
+ID: 15492
+Region: IM
+State: AZ
+Code: ORPI
+Name: Organ_Pipe_Cactus_National_Monument
+Type: National_Monument
+Visitors: 17138757
+ID: 23864
+Region: IM
+State: AZ
+Code: PEFO
+Name: Petrified_Forest_National_Park
+Type: National_Park
+Visitors: 54138794
+ID: 23865
+Region: IM
+State: UT
+Code: GLCA
+Name: Glen_Canyon_National_Recreation_Area
+Type: National_Recreation_Area
+Visitors: 104419450
+ID: 23866
+Region: IM
+State: AZ
+Code: GRCA
+Name: Grand_Canyon_National_Park
+Type: National_Park
+Visitors: 205486894
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+2
+ID: 2
+Region: NO
+State: ON
+Code: 3282
+Name: NO ONE KNOWS THIS PARK
+Type: NATIONAL TREASURE
+Visitors: 667
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+DELETE 	       8
+Please insert the record number to delete.
+2
+deleting record 2...
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+6
+Creating report... 
+
+ID: 1
+Region: AR
+State: WA
+Code: 4567
+Name: WHO_KNOWS_THIS_EXISTS_THOUGH
+Type: PARK
+Visitors: 239239
+ID: 6092
+Region: IM
+State: AZ
+Code: HUTR
+Name: Hubbell_Trading_Post_National_Historic_Site
+Type: National_Historic_Site
+Visitors: 6197119
+ID: 8538
+Region: IM
+State: AZ
+Code: NAVA
+Name: Navajo_National_Monument
+Type: National_Monument
+Visitors: 3399225
+ID: 9526
+Region: IM
+State: AZ
+Code: PISP
+Name: Pipe_Spring_National_Monument
+Type: National_Monument
+Visitors: 2456547
+ID: 10683
+Region: IM
+State: AZ
+Code: SAGU
+Name: Saguaro_National_Park
+Type: National_Park
+Visitors: 33169763
+ID: 15492
+Region: IM
+State: AZ
+Code: ORPI
+Name: Organ_Pipe_Cactus_National_Monument
+Type: National_Monument
+Visitors: 17138757
+ID: 23864
+Region: IM
+State: AZ
+Code: PEFO
+Name: Petrified_Forest_National_Park
+Type: National_Park
+Visitors: 54138794
+ID: 23865
+Region: IM
+State: UT
+Code: GLCA
+Name: Glen_Canyon_National_Recreation_Area
+Type: National_Recreation_Area
+Visitors: 104419450
+ID: 23866
+Region: IM
+State: AZ
+Code: GRCA
+Name: Grand_Canyon_National_Park
+Type: National_Park
+Visitors: 205486894
+ID: 23944
+Region: IM
+State: UT
+Code: RABR
+Name: Rainbow_Bridge_National_Monument
+Type: National_Monument
+Visitors: 7007990
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+35601
+ID: 35601
+Region: IM
+State: AZ
+Code: TUZI
+Name: Tuzigoot National Monument
+Type: National Monument
+Visitors: 5706971
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+7
+Please insert the record number to add.
+35602
+Enter the Region: YIU O
+Enter the State: OKOK
+Enter the Code: 2039
+Enter the Name: PARK
+Enter the Type: NONE
+Enter the Visitors: 0
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+35602
+ID: 35602
+Region: YI
+State: OK
+Code: 2039
+Name: PARK
+Type: NONE
+Visitors: 0
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+3
+Parks has been closed.
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+A data base is not open!
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+5 9
+Goodbye!
+]0;jcsibria@turing: ~/DataBase/Project1jcsibria@turing:~/DataBase/Project1$ E[Kexit
+exit
+
+Script done on 2021-02-02 18:41:36-0600

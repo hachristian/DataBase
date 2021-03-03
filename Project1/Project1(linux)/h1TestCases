@@ -1,0 +1,608 @@
+Script started on 2021-02-02 16:56:11-0600
+]0;jcsibria@turing: ~/DataBase/Project1jcsibria@turing:~/DataBase/Project1$ exitclearCLEAR./main.exeg++ -Wall *.cpp -o main.exe
+]0;jcsibria@turing: ~/DataBase/Project1jcsibria@turing:~/DataBase/Project1$ ./main.exe
+welcome! what would you like to do?
+
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+1
+please enter the database name (Must match .csv file) Parks
+DataBase Parks has been created.
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+A data base is not open!
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+56 
+A data base is not open!
+
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+2
+Please enter the Database name you want to open.
+Parks
+opening Parks...
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+496556
+ID: 496556
+Region: SE
+State: KY
+Code: ABLI
+Name: Abraham Lincoln Birthplace National Historical Park
+Type: National Historical Park
+Visitors: 20740061
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+2877
+ID: 2877
+Region: IM
+State: AZ
+Code: CHIR
+Name: Chiricahua National Monument
+Type: National Monument
+Visitors: 3962885
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+358382
+ID: 358382
+Region: PW
+State: HI
+Code: HALE
+Name: Haleakala National Park
+Type: National Park
+Visitors: 52237942
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+2775875
+ID: 2775875
+Region: NC
+State: DC
+Code: BEPA
+Name: Belmont-Paul Women's Equality National Monument
+Type: National Monument
+Visitors: 2704
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+133333
+Record  was not found.
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+5
+Please insert the record number to update.
+1 2877
+which of the following fields will you update?
+
+
+[1] Region
+[2] State
+[3] Code
+[4] Name
+[5] Type
+[6] Visitors
+2
+type the change now: AR
+You will be updating the following record:
+ID: 2877
+Region: IM
+State: AZ
+Code: CHIR
+Name: Chiricahua_National_Monument
+Type: National_Monument
+Visitors: 3962885
+State has been changed to AR
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+5
+Please insert the record number to update.
+2877
+which of the following fields will you update?
+
+
+[1] Region
+[2] State
+[3] Code
+[4] Name
+[5] Type
+[6] Visitors
+1
+type the change now: WA
+You will be updating the following record:
+ID: 2877
+Region: IM
+State: AR
+Code: CHIR
+Name: Chiricahua_National_Monument
+Type: National_Monument
+Visitors: 3962885
+Region has been changed to WA
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+1416041
+ID: 1416041
+Region: AK
+State: AK
+Code: GLBA
+Name: Glacier Bay National Preserve
+Type: National Preserve
+Visitors: 11949920
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+5
+Please insert the record number to update.
+1416041
+which of the following fields will you update?
+
+
+[1] Region
+[2] State
+[3] Code
+[4] Name
+[5] Type
+[6] Visitors
+6
+type the change now: 10600000
+You will be updating the following record:
+ID: 1416041
+Region: AK
+State: AK
+Code: GLBA
+Name: Glacier_Bay_National_Preserve
+Type: National_Preserve
+Visitors: 11949920
+Visitors has been changed to 10600000
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+1416041
+ID: 1416041
+Region: AK
+State: AK
+Code: GLBA
+Name: Glacier Bay National Preserve
+Type: National Preserve
+Visitors: 10600000
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+6
+Creating report... 
+
+ID: 2877
+Region: WA
+State: AR
+Code: CHIR
+Name: Chiricahua National Monument
+Type: National Monument
+Visitors: 3962885
+
+ID: 6092
+Region: IM
+State: AZ
+Code: HUTR
+Name: Hubbell Trading Post National Historic Site
+Type: National Historic Site
+Visitors: 6197119
+
+ID: 8538
+Region: IM
+State: AZ
+Code: NAVA
+Name: Navajo National Monument
+Type: National Monument
+Visitors: 3399225
+
+ID: 9526
+Region: IM
+State: AZ
+Code: PISP
+Name: Pipe Spring National Monument
+Type: National Monument
+Visitors: 2456547
+
+ID: 10683
+Region: IM
+State: AZ
+Code: SAGU
+Name: Saguaro National Park
+Type: National Park
+Visitors: 33169763
+
+ID: 15492
+Region: IM
+State: AZ
+Code: ORPI
+Name: Organ Pipe Cactus National Monument
+Type: National Monument
+Visitors: 17138757
+
+ID: 23864
+Region: IM
+State: AZ
+Code: PEFO
+Name: Petrified Forest National Park
+Type: National Park
+Visitors: 54138794
+
+ID: 23865
+Region: IM
+State: UT
+Code: GLCA
+Name: Glen Canyon National Recreation Area
+Type: National Recreation Area
+Visitors: 104419450
+
+ID: 23866
+Region: IM
+State: AZ
+Code: GRCA
+Name: Grand Canyon National Park
+Type: National Park
+Visitors: 205486894
+
+ID: 23944
+Region: IM
+State: UT
+Code: RABR
+Name: Rainbow Bridge National Monument
+Type: National Monument
+Visitors: 7007990
+
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+7
+Please insert the record number to add.
+199000
+Enter the Region: HO
+Enter the State: HI
+Enter the Code: 1555
+Enter the Name: HONOULIULI NAT AT  TIONAL HISTORIC PARK    SITE
+Enter the Type: NATIONAL HISTORIC STIE   ITE
+Enter the Visitors: 151556
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+199000
+ID: 199000
+Region: HO
+State: HI
+Code: 1555
+Name: HONOULIULI NATIONAL HISTORIC SITE
+Type: NATIONAL HISTORIC SITE
+Visitors: 151556
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+8
+Please insert the record number to delete.
+255923
+deleting record 255923...
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+255923
+Record  was not found.
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+7
+Please insert the record number to add.
+100000
+Enter the Region: IN
+Enter the State: DI
+Enter the Code: 1252
+Enter the Name: INDIANA DUNES NATIONAL PARK
+Enter the Type: NATIONAL PARK
+Enter the Visitors: 126457
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+7
+Please insert the record number to add.
+111111
+Enter the Region: AR  WA
+Enter the State: AR
+Enter the Code: 1585
+Enter the Name: ZOE PARK
+Enter the Type: PARK
+Enter the Visitors: 1
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+111111
+ID: 111111
+Region: WA
+State: AR
+Code: 1585
+Name: ZOE PARK
+Type: PARK
+Visitors: 1
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+2877
+ID: 2877
+Region: WA
+State: AR
+Code: CHIR
+Name: Chiricahua National Monument
+Type: National Monument
+Visitors: 3962885
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+358382
+ID: 358382
+Region: PW
+State: HI
+Code: HALE
+Name: Haleakala National Park
+Type: National Park
+Visitors: 52237942
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+Please insert the record number to display.
+2775875
+ID: 2775875
+Region: NC
+State: DC
+Code: BEPA
+Name: Belmont-Paul Women's Equality National Monument
+Type: National Monument
+Visitors: 2704
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+3
+Parks has been closed.
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+4
+A data base is not open!
+
+[1] Create New Database 
+[2] Open Database 
+[3] Close Database 
+[4] Display Record 
+[5] Update Record 
+[6] Create Report 
+[7] Add Record 
+[8] Delete Record 
+[9] Quit
+9
+Goodbye!
+]0;jcsibria@turing: ~/DataBase/Project1jcsibria@turing:~/DataBase/Project1$ EXIT[K[K[K[Kexit
+exit
+
+Script done on 2021-02-02 17:01:42-0600
